@@ -1,0 +1,39 @@
+# environment / caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/secrets.toml
+
+# secrets
+secrets/
+.env
+*.key.json
+
+# trained model weights (regenerate via src/models/train_*.py)
+outputs/models/**/*.pt
+/*.pt
+/yolo*.pt
+
+# large raw downloads (regenerate via src/data_ingestion/*.py)
+data/raw/**/*.tif
+data/raw/**/*.tiff
+data/raw/**/*.pbf
+
+# study areas: config.json is tracked, generated rasters/graphs are not
+data/study_areas/**/*.tif
+data/study_areas/**/*.tiff
+data/study_areas/**/*.tif.aux.xml
+data/study_areas/**/*.geojson
+data/study_areas/**/*.gpickle
+
+# training datasets (large; dataset_config.json + geolocated_examples/ are
+# small and not regeneratable, so those stay tracked)
+datasets/landslide_seg/*
+!datasets/landslide_seg/dataset_config.json
+datasets/landslide_seg_yolo/
+datasets/nepal_landslide_seg/*
+!datasets/nepal_landslide_seg/dataset_config.json
+datasets/nepal_landslide_seg_raw/
+datasets/nepal_landslide_seg_yolo/
+datasets/flood_seg/

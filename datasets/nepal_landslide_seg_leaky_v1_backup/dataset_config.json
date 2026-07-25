@@ -1,0 +1,8 @@
+{
+  "gsd_m_per_px": 10.0,
+  "source": "Real Nepal-specific landslide imagery, reorganized from datasets/nepal_landslide_seg_raw/ - see DATA_PROVENANCE.md",
+  "sensor": "Sentinel-2, 10m resolution (UNVERIFIED for this dataset specifically)",
+  "gsd_verified": false,
+  "gsd_verification_note": "Value carried over by analogy from landslide_seg's cited 10m/px during the 2026-07-25 restructure - no source in this project confirms Nepal's actual GSD independently. Files are GeoTIFFs with no embedded CRS/geotransform, so it can't be read from the imagery either. Treat area_m2/DBI numbers for this dataset's images with that caveat.",
+  "georeferenced": false
+}

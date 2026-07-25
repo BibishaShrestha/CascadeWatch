@@ -1,0 +1,19 @@
+{
+  "gsd_m_per_px": 10.0,
+  "sources": [
+    {
+      "dataset": "landslide_seg",
+      "gsd_m_per_px": 10.0,
+      "source": "IARAI Landslide4Sense 2022 (global, multi-country), cleaned derivative - see DATA_PROVENANCE.md",
+      "sensor": "Sentinel-2, 10m resolution",
+      "georeferenced": false
+    },
+    {
+      "dataset": "nepal_landslide_seg",
+      "gsd_m_per_px": 10.0,
+      "source": "Real Nepal-specific landslide imagery, reorganized from datasets/nepal_landslide_seg_raw/ - see DATA_PROVENANCE.md",
+      "sensor": "Sentinel-2, 10m resolution",
+      "georeferenced": false
+    }
+  ]
+}

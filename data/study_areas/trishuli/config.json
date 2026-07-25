@@ -1,0 +1,8 @@
+{
+  "display_name": "Trishuli Corridor",
+  "bbox": [84.4997577, 27.4997665, 85.5001216, 28.5009389],
+  "utm_crs": "EPSG:32645",
+  "local_relief_fallback_m": 500.0,
+  "osm_pbf_path": null,
+  "source_notes": "Real extent confirmed via gdalinfo (2026-07-24) against trishuli_after_2015_rgb.tif, a real georeferenced raster covering this corridor (WGS84). DEM: Copernicus GLO-30 via OpenTopography. osm_pbf_path=null means the shared Nepal-wide Geofabrik extract (data/raw/osm/nepal-latest.osm.pbf) is used."
+}

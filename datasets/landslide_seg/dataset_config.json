@@ -1,0 +1,8 @@
+{
+  "gsd_m_per_px": 10.0,
+  "source": "IARAI Landslide4Sense 2022 (global, multi-country), cleaned derivative - see DATA_PROVENANCE.md",
+  "sensor": "Sentinel-2, 10m resolution",
+  "gsd_citation": "Ghorbanzadeh et al. 2022, 'Landslide4Sense: Reference Benchmark Data and Deep Learning Models for Landslide Detection', arXiv:2206.00515 - all bands including DEM/slope resampled to 10m/px",
+  "gsd_verified": true,
+  "georeferenced": false
+}

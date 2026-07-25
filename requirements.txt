@@ -1,0 +1,17 @@
+numpy
+opencv-python-headless
+pillow
+streamlit
+pytest
+networkx
+shapely
+pandas
+ultralytics
+pysheds
+rasterio
+geopandas
+pyrosm
+requests
+scipy
+earthengine-api
+pyproj

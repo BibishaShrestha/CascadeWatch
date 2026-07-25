@@ -1,0 +1,8 @@
+train:
+  - /home/bishal/ml-codespace/team_cascadia/cascadewatch/datasets/landslide_seg_yolo/images/train
+  - /home/bishal/ml-codespace/team_cascadia/cascadewatch/datasets/nepal_landslide_seg_yolo/images/train
+val:
+  - /home/bishal/ml-codespace/team_cascadia/cascadewatch/datasets/landslide_seg_yolo/images/val
+  - /home/bishal/ml-codespace/team_cascadia/cascadewatch/datasets/nepal_landslide_seg_yolo/images/val
+nc: 1
+names: ['landslide']
