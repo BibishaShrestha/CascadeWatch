@@ -123,5 +123,4 @@ https://github.com/user-attachments/assets/8e415601-b74c-41cd-a18a-ccc8d84a46f8
 
 
 ## Team
-
-Built during IIMS Hackathon 3.0 by Team Cascadia.
+This project was developed collaboratively during the IIMS X Perceptron International Hackathon 2026 by Team Cascadia.
